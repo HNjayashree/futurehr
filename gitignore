@@ -1,0 +1,28 @@
+# ── Trained ML Models (NEVER upload these) ──────────────────
+saved_models/
+*.pkl
+*.joblib
+*.h5
+*.pt
+*.pth
+
+# ── Data files (keep private) ────────────────────────────────
+*.csv
+data/
+datasets/
+
+# ── Python cache ─────────────────────────────────────────────
+__pycache__/
+*.py[cod]
+*.pyo
+.ipynb_checkpoints/
+
+# ── Environment ──────────────────────────────────────────────
+venv/
+env/
+.env
+*.egg-info/
+
+# ── OS files ─────────────────────────────────────────────────
+.DS_Store
+Thumbs.db
